@@ -1,0 +1,44 @@
+.suggested{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.suggestedEventCard{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    min-width: 344px;
+    min-height: 232px;
+    background-color: #1E1D23;
+    box-shadow: 0pt 3pt 6pt #00000014;
+    margin-left: 16px;
+    background-image: url("https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uY2VydHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+    background-size: cover;
+}
+
+.ticketButton {
+    width: 127px;
+    height: 38px;
+    background-color: #026CDF;
+    opacity: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: regular;
+    color: #fff;
+    margin-left: 16px;
+    margin-bottom: 16px;
+
+}
+
+.suggestedTitle{
+    font-size: 18px;
+    text-align: left;
+    
+    color: #fff;
+    opacity: 100%;
+    margin-left: 16px;
+    margin-right: 70px;
+    font-weight: bold;
+}
