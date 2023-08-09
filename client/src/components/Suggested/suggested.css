@@ -1,7 +1,13 @@
 .suggested{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 16px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    scrollbar-color: transparent;
 }
 
 
@@ -9,10 +15,10 @@
     position: relative; /* Add relative positioning to the container */
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     min-width: 344px;
     min-height: 232px;
-    margin-left: 16px;
+   
     margin-bottom: 32px;
 }
 

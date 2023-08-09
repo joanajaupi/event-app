@@ -4,9 +4,39 @@ import SearchBar from './SearchBar/searchBar'
 import SuggestedCard from './Suggested/suggested'
 import './home.css'
 import FilterButtons from './upcoming-filter/filterButtons'
-import EventCard from './eventCard/eventCard'
+import EventCard from './suggestedEventCard/eventCard'
 const Home = () => {
+    const data = [
+        {
+            artist: "Dave",
+            location: "Amsterdam Netherlands - 10:00 PM",
+            date: "25",
+            month: "Feb",
+            price: "€ 25.00",
+            image: "https://www.rollingstone.com/wp-content/uploads/2020/12/ArcticMonkeysRAHedits_highres_pcAaronParsons_7.jpg"
+        },
+        {
+            artist: "Dave",
+            location: "Amsterdam Netherlands - 10:00 PM",
+            date: "25",
+            month: "Feb",
+            price: "€ 25.00",
+            image: "https://media.istockphoto.com/id/1330424071/photo/large-group-of-people-at-a-concert-party.jpg?s=612x612&w=0&k=20&c=LwdiOCBqbfICjQ3j5AzwyugxmfkbyfL3StKEQhtx4hE="
 
+        },
+        {
+            artist: "Dave",
+            location: "Amsterdam Netherlands - 10:00 PM",
+            date: "25",
+            month: "Feb",
+            price: "€ 25.00",
+            image: "https://www.nme.com/wp-content/uploads/2022/08/Arctic-Monkeys-press.jpg"
+
+        }
+
+        ];
+        const filters = 
+        ["All", "Free", "Limited", "Concert", "Festival"];
      
     return (
         <div className="home">
@@ -16,14 +46,25 @@ const Home = () => {
             <SuggestedCard />
             <p className="upcoming-title">Upcoming events</p>
             <div className="filter-bar">
-                <FilterButtons name="All" />
-                <FilterButtons name="Free" />
-                <FilterButtons name="Limited" />
-                <FilterButtons name="Concert" />
-                <FilterButtons name="Festival" />
+            {
+                    filters.map((item) => {
+                        return (
+                            <FilterButtons name={item} />
+                        )
+                    }
+                    )
+                }
             </div>
             <p className="total-events">Total events: 150</p>
-            <EventCard />
+            {
+                data.map((item) => {
+                    return (
+                        <EventCard artist={item.artist} location={item.location} date={item.date} month={item.month} price={item.price} image={item.image} />
+                    )
+                })
+                
+            }
+
         </div>
     )
 }
