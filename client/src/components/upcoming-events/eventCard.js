@@ -4,13 +4,16 @@ import {EventDate} from './eventDate';
 import {PriceButton} from './price';
 
 export const EventCard = (props) => {
+    const handleClick = () => {
+        window.location.href = "/event";
+    }
 
     const backgroundImage = {
         backgroundImage: `url(${props.image})`
     }
     
     return (
-        <div className="eventCard" style={backgroundImage}>
+        <div className="eventCard" style={backgroundImage} onClick = {handleClick}>
             <div className="eventImage">
                 <EventDate date={props.date} month={props.month} />
             </div>

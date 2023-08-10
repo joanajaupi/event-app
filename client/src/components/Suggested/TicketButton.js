@@ -1,10 +1,11 @@
 import React from 'react'
 import {EventPage} from '../layouts/eventPage'
+import {Link} from 'react-router-dom'
 
 export const TicketButton = (props) => {
 
     const handleClick = () => {
-        <EventPage image={props.image}/>
+        window.location.href = "/event";
     }
 
     return (

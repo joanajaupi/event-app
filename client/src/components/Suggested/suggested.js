@@ -3,16 +3,13 @@ import './suggested.css'
 import {TicketButton} from './TicketButton'
 import {SuggestedTitle} from './title'
 import {Date} from './date'
-export const SuggestedCard = () => {
+export const SuggestedCard = (props) => {
     return (
-        
             <div className="suggestedEventCard">
                 <div className="suggestedContent">
-                    <Date date="Fri 25 Feb 2022" />
-                    <SuggestedTitle title="Dave - We're all alone in this together UK tour 2022" />
-                    <TicketButton onClick = {() => {
-                        console.log('clicked');
-                    }} />
+                    <Date date={props.date} />
+                    <SuggestedTitle title={props.title} />
+                    <TicketButton />
                 </div>
             </div>
      

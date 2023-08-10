@@ -4,7 +4,7 @@ import {SearchBar} from './SearchBar/searchBar'
 import {SuggestedCard} from './Suggested/suggested'
 import './home.css'
 import {FilterButtons} from './upcoming-filter/filterButtons'
-import {EventCard} from './suggestedEventCard/eventCard'
+import {EventCard} from './upcoming-events/eventCard'
 
 
 export const Home = () => {
@@ -46,8 +46,8 @@ export const Home = () => {
             <SearchBar />
             <p className="suggested-title">Suggested</p>
             <div className="suggested">
-                <SuggestedCard />
-                <SuggestedCard/>
+                <SuggestedCard date="24 Feb - 19:30" title="Dave - we are alone in this together"/>
+                <SuggestedCard date="24 Feb - 19:30" title="Dave - we are alone in this together" />
             </div>
             <p className="upcoming-title">Upcoming events</p>
             <div className="filter-bar">
