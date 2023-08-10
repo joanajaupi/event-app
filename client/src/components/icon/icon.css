@@ -1,0 +1,17 @@
+
+.circle {
+    background: rgba(255, 255, 255, 0.1);
+    width: 42px;
+    flex-shrink: 0;
+    height: 42px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-right: 24px;
+  }
+ i {
+    color: #fff;
+  }
+  
