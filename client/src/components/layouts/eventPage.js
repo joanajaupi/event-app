@@ -28,8 +28,8 @@ export const EventPage = () => {
                         <Icon icon="far fa-calendar-alt" />
                         <div className="datee">
                         <p><strong>02</strong><br/>September</p>
-                            </div>
-                            <hr className="calendar-divider"/>
+                        </div>
+                        <hr className="vertical-line"/>
                         <div className="time">
                         <p><strong>10:00PM</strong><br/>Thursday</p>
                         </div>

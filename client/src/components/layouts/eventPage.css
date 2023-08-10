@@ -169,12 +169,12 @@
         font-size: 16px;
         margin-right: 0px;
     }
-    .calendar-divider {
-        margin: 0px;
+      .vertical-line{
         margin-left: 24px;
         margin-right: 24px;
+        height: 42px;
+        
       }
-
       .location p{
         font-weight: normal;
         margin-top: 32px;
