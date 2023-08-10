@@ -5,6 +5,8 @@
         justify-content: space-between;
         color: #fff;
         margin-right: 16px;
+
+
     }
     
     .nav-text{
@@ -14,6 +16,7 @@
     }
     
     .nav-profile{
+        margin-right: 16px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

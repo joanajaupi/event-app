@@ -7,6 +7,7 @@
         flex-direction: row;
         justify-content: space-between;
         border-radius: 5pt;
+        margin-right: 16px;      
     }
     
     .search-input{
