@@ -26,14 +26,21 @@ export const EventPage = () => {
                     
                     <div className="date-time">
                         <Icon icon="far fa-calendar-alt" />
-                       
-                        
+                        <div className="datee">
+                        <p><strong>02</strong><br/>September</p>
+                            </div>
+                            <hr className="calendar-divider"/>
+                        <div className="time">
+                        <p><strong>10:00PM</strong><br/>Thursday</p>
+                        </div>
                     </div>
                     <div className="location">
                         <Icon icon="fas fa-map-marker-alt" />
+                        <p>Amsterdam, Netherlands</p>
                     </div>
                     <div className="tickets">
                         <Icon icon="fas fa-ticket-alt" />
+                        <p>5 tickets</p>
                     </div>
             </div>
 
