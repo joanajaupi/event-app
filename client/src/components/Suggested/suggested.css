@@ -1,14 +1,11 @@
-@media screen and (max-width: 600px) {
-    
-    
-    
+
     .suggestedEventCard {
         position: relative; /* Add relative positioning to the container */
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        min-width: 344px;
-        min-height: 232px;
+        width: 344px;
+        height: 232px;
         margin-bottom: 32px;
     }
     
@@ -62,4 +59,3 @@
         color: #fff;
     }
     
-}

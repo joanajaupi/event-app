@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+
 .filterButtons{    
     background-color: #1E1D23;
     display: flex;
@@ -25,4 +25,3 @@
     }
 }
     
-}

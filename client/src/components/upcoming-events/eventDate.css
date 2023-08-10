@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+
     .eventDate {
         border-radius: 23px;
         width: 46px;
@@ -24,4 +24,3 @@
         color: #fff;
     }
     
-}
