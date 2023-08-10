@@ -2,7 +2,7 @@ import React from 'react';
 import './eventCard.css';
 
 
-const PriceButton = (props) => {
+export const PriceButton = (props) => {
 
     return (
         <div className="priceButton">
@@ -11,4 +11,3 @@ const PriceButton = (props) => {
 
     )
 }
-export default PriceButton;

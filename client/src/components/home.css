@@ -4,7 +4,7 @@
         width: 100%;
         position: absolute;
         margin-left: 16px;
-        
+        margin-right: 16px;
       }
       
     *{
@@ -26,10 +26,16 @@
     }
 
     .filter-bar{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        margin-bottom: 16px;
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        gap: 12px;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        scrollbar-color: transparent;
+        
     }
 
     .total-events{

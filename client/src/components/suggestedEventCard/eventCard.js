@@ -1,13 +1,14 @@
 import React from 'react';  
 import './eventCard.css';
-import EventDate from './eventDate';
-import PriceButton from './price';
+import {EventDate} from './eventDate';
+import {PriceButton} from './price';
 
-const EventCard = (props) => {
+export const EventCard = (props) => {
 
     const backgroundImage = {
         backgroundImage: `url(${props.image})`
     }
+    
     return (
         <div className="eventCard" style={backgroundImage}>
             <div className="eventImage">
@@ -23,4 +24,3 @@ const EventCard = (props) => {
         </div>
     )
 }
-export default EventCard;

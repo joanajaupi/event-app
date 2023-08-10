@@ -2,7 +2,7 @@ import React from "react";
 import "./eventDate.css";
 
 
-const EventDate = (props) => {
+export const EventDate = (props) => {
 
     return (
         <div className="eventDate">
@@ -12,4 +12,3 @@ const EventDate = (props) => {
     )
 }
 
-export default EventDate;

@@ -1,11 +1,13 @@
 import React from 'react'
-import Nav from './Nav/nav'
-import SearchBar from './SearchBar/searchBar'
-import SuggestedCard from './Suggested/suggested'
+import {Nav} from './Nav/nav'
+import {SearchBar} from './SearchBar/searchBar'
+import {SuggestedCard} from './Suggested/suggested'
 import './home.css'
-import FilterButtons from './upcoming-filter/filterButtons'
-import EventCard from './suggestedEventCard/eventCard'
-const Home = () => {
+import {FilterButtons} from './upcoming-filter/filterButtons'
+import {EventCard} from './suggestedEventCard/eventCard'
+
+
+export const Home = () => {
     const data = [
         {
             artist: "Dave",
@@ -68,4 +70,3 @@ const Home = () => {
         </div>
     )
 }
-export default Home;

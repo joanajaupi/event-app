@@ -1,73 +1,75 @@
-.suggested{
-    display: grid;
-    grid-auto-flow: column;
-    scroll-behavior: auto;
-    gap: 16px;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    scrollbar-color: transparent;
-}
-
-
-.suggestedEventCard {
-    position: relative; /* Add relative positioning to the container */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    min-width: 344px;
-    min-height: 232px;
-   
-    margin-bottom: 32px;
-}
-
-.suggestedEventCard::before {
-    content: ""; /* Create a pseudo-element for the background */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uY2VydHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
-    background-size: cover;
-    opacity: 0.6; /* Set the opacity to 60% */
-    z-index: 0; /* Place the pseudo-element behind the content */
-}
-
-.suggestedContent {
-    z-index:1;
-}
-
-
-.ticketButton {
-    width: 127px;
-    height: 38px;
-    background-color: #026CDF;
-    opacity: 100%;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: regular;
-    color: #fff;
-    margin-bottom: 16px;
-}
-
-.suggestedTitle{
-    font-size: 18px;
-    text-align: left;
-    color: #fff;
-    opacity: 100%;
-    margin-right: 70px;
-    font-weight: bold;
-}
-
-.suggestedContent{
-    margin-left: 16px;}
-
-.date {
-    font-size: 14px;
-    font-weight: regular;
-    color: #fff;
+@media screen and (max-width: 600px) {
+    .suggested{
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        gap: 16px;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        scrollbar-color: transparent;
+    }
+    
+    
+    .suggestedEventCard {
+        position: relative; /* Add relative positioning to the container */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        min-width: 344px;
+        min-height: 232px;
+        margin-bottom: 32px;
+    }
+    
+    .suggestedEventCard::before {
+        content: ""; /* Create a pseudo-element for the background */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uY2VydHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+        background-size: cover;
+        opacity: 0.6; /* Set the opacity to 60% */
+        z-index: 0; /* Place the pseudo-element behind the content */
+    }
+    
+    .suggestedContent {
+        z-index:1;
+    }
+    
+    
+    .ticketButton {
+        width: 127px;
+        height: 38px;
+        background-color: #026CDF;
+        opacity: 100%;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: regular;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+    
+    .suggestedTitle{
+        font-size: 18px;
+        text-align: left;
+        color: #fff;
+        opacity: 100%;
+        margin-right: 70px;
+        font-weight: bold;
+    }
+    
+    .suggestedContent{
+        margin-left: 16px;}
+    
+    .date {
+        font-size: 14px;
+        font-weight: regular;
+        color: #fff;
+    }
+    
 }

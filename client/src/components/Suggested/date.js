@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Date = (props) => {
+export const Date = (props) => {
 
 
     return (
@@ -10,4 +10,3 @@ const Date = (props) => {
         </div>
     )
 }
-export default Date;

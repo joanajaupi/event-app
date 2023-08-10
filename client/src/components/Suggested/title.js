@@ -1,7 +1,5 @@
 import React from 'react'
-
-
-const SuggestedTitle = (props) => {
+export const SuggestedTitle = (props) => {
 
 
     return (
@@ -12,4 +10,3 @@ const SuggestedTitle = (props) => {
     )
 }
 
-export default SuggestedTitle;

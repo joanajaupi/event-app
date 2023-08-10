@@ -1,7 +1,7 @@
 import React from 'react'
 import './nav.css'
 
-const Nav = (props) => {
+export const Nav = (props) => {
 
 
     return (
@@ -14,4 +14,3 @@ const Nav = (props) => {
         </div>
     )
 }
-export default Nav;

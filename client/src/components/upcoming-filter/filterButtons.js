@@ -1,14 +1,13 @@
 import React from "react";
 import "./filterButtons.css";
-const FilterButtons = (props) => {
+export const FilterButtons = (props) => {
 
     return (
 
         <div className="filterButtons">
-            <a href="#" className="filterButton">{props.name}</a>
+            <a href="#" className="filterName">{props.name}</a>
         </div>
 
     )
 
 }
-export default FilterButtons;
