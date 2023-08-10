@@ -45,7 +45,10 @@ export const Home = () => {
             <Nav name="John" image= "https://cdn.shopify.com/s/files/1/1045/8368/files/Person-with-curly-hair-resting-their-chin-on-their-hand-wearing-round-black-frame-eyeglasses.jpg?v=1654868072"/>
             <SearchBar />
             <p className="suggested-title">Suggested</p>
-            <SuggestedCard />
+            <div className="suggested">
+                <SuggestedCard />
+                <SuggestedCard/>
+            </div>
             <p className="upcoming-title">Upcoming events</p>
             <div className="filter-bar">
             {

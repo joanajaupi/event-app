@@ -1,7 +1,11 @@
 import React from 'react';
 import './eventPage.css'
 import {Icon} from '../icon/icon'
+import {Link} from 'react-router-dom'
 export const EventPage = () => {
+    const handleClick = e => {
+        window.history.back();
+    }
     const backgroundImage = {
         backgroundImage: `url(${process.env.PUBLIC_URL + '/images/am.jpg'})`,
     }
@@ -9,7 +13,10 @@ export const EventPage = () => {
         <div className="eventPage-container">
             <div className="eventPagediv1"  style={backgroundImage} >
             <div className="header">
-            <Icon icon="fas fa-arrow-left" />
+                <div className="back" onClick={handleClick}>
+                <Icon icon="fas fa-arrow-left" />
+
+                </div>
                 <div className="eventPage-title">
                     <p>Dave</p>
                 </div>
