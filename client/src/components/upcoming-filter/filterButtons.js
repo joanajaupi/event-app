@@ -5,7 +5,10 @@ export const FilterButtons = (props) => {
     return (
 
         <div className="filterButtons">
-            <a href="#" className="filterName">{props.name}</a>
+            {
+                props.selected === "true" ? <a href="#" className="autoselected filterName" selected>{props.name}</a> : 
+                <a href="#" className="filterName">{props.name}</a>  }
+            
         </div>
 
     )

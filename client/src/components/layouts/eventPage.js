@@ -7,7 +7,7 @@ export const EventPage = () => {
         window.history.back();
     }
     const backgroundImage = {
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/images/am.jpg'})`,
+        backgroundImage: `url(${process.env.PUBLIC_URL + '/images/img2.jpg'})`,
     }
     return (
         <div className="eventPage-container">

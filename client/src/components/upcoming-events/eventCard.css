@@ -1,14 +1,14 @@
 
     .eventCard{
-        margin-top: 24px;
+        
         height: 328px;
         width: 396px;
         background-size: cover;
         display: flex;
         flex-direction: column;
         margin-right: 16px;
-        
-
+        margin-bottom: 16px;
+        border-radius: 5px;
     }
     
     .overlay{
@@ -26,6 +26,7 @@
     }
     
     .eventArtist {
+        width: 245px;
         font-size: 18px;
         font-weight: 400;
         color: #fff;

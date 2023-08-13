@@ -9,6 +9,7 @@ export const SearchBar = () => {
                 <input type="text" placeholder="Search all events..." class="search-input"></input>
            </div>
            <div id="filter-icon">
+                {/* fix the icon */}
                 <i className="fa-solid fa-sliders search-icon"></i>
            </div>
         </div>

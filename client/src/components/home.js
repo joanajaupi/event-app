@@ -18,7 +18,7 @@ export const Home = () => {
             image: "https://www.rollingstone.com/wp-content/uploads/2020/12/ArcticMonkeysRAHedits_highres_pcAaronParsons_7.jpg"
         },
         {
-            artist: "Dave",
+            artist: "Dave - We're all alone in this together UK tour 2022",
             location: "Amsterdam Netherlands - 10:00 PM",
             date: "25",
             month: "Feb",
@@ -27,7 +27,7 @@ export const Home = () => {
 
         },
         {
-            artist: "Dave",
+            artist: "Dave - We're all alone in this together UK tour 2022",
             location: "Amsterdam Netherlands - 10:00 PM",
             date: "25",
             month: "Feb",
@@ -54,6 +54,8 @@ export const Home = () => {
             {
                     filters.map((item) => {
                         return (
+                            // first button to be selected by default
+                            item === "All" ? <FilterButtons name={item} selected="true" /> :
                             <FilterButtons name={item} />
                         )
                     }

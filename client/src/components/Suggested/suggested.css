@@ -18,6 +18,7 @@
         height: 100%;
         background-image: url("https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uY2VydHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
         background-size: cover;
+        border-radius: 5px;
         opacity: 0.6; /* Set the opacity to 60% */
         z-index: 0; /* Place the pseudo-element behind the content */
     }

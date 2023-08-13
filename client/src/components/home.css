@@ -17,6 +17,7 @@
         color: #fff;
         width: 84px;
         height: 24px;
+        font-weight: 500;
     }
     .upcoming-title{
         font-weight: semi-bold;
@@ -39,10 +40,12 @@
     }
 
     .total-events{
+        margin-top: 16px;
         font-size: 14px;
         text-align: left;
         color: #CCCCCC;
         font-weight: normal;
+        margin-bottom: 24px;
     }
 
     .suggested{
