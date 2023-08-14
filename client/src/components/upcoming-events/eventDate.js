@@ -6,8 +6,8 @@ export const EventDate = (props) => {
 
     return (
         <div className="eventDate">
-            <div className="dateCirlce">{props.date} </div>
-            <div className="month">{props.month}</div>
+            <p className="dateCirlce">{props.date}</p>
+            <p className="month">{props.month}</p>
         </div>
     )
 }

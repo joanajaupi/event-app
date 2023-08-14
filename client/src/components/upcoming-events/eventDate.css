@@ -1,5 +1,6 @@
 
     .eventDate {
+       
         border-radius: 23px;
         width: 46px;
         height: 46px;
@@ -28,13 +29,8 @@
         width: 96px;
         height: 36px;
         border-radius: 23px;
-        background: transparent linear-gradient(center, black 0%, #72727200 100%) 0% 0% no-repeat padding-box;
         opacity: 1;
         backdrop-filter: blur(10px);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     
     }
 }
