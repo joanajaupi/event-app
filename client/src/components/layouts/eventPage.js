@@ -2,6 +2,7 @@ import React from 'react';
 import './eventPage.css'
 import {Icon} from '../icon/icon'
 import {Link} from 'react-router-dom'
+
 export const EventPage = () => {
     const handleClick = e => {
         window.history.back();

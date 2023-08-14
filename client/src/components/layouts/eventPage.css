@@ -1,4 +1,4 @@
-
+    
     .eventPagediv1{
         height: 585px;
         background-size: cover;
@@ -154,6 +154,7 @@
         color: #fff;
         font-size: 16px;
         font-weight: normal;
+        margin-bottom: 32px;
     }
     .date-time,
     .location,
@@ -204,12 +205,17 @@
             flex-direction: row;
             justify-content: space-between;
         }
-
+        
 
         .event-details{
             position: absolute;
             left: 190px;
             right: 190px;
+        }
+        .eventPage-title{
+            position: relative;
+            margin-left: 0px;
+
         }
         
         .event-information{
@@ -243,6 +249,9 @@
             color: #fff;
             text-align: left;
             font-size: 16px;
+        }
+        .web-date p{
+            margin-bottom: 0px;
         }
 
         .about{
