@@ -77,26 +77,27 @@
             background-color:#1E1D23;
             border-radius: 5px;
             overflow: hidden;
+            position: relative;
         }
         .upper-div{
             position: relative;
             height: 141px;
             width: 404px;
-            mask-image: linear-gradient(to right,black,transparent 95%);
+            mask-image: linear-gradient(to right,black,transparent 100%);
         }
         .eventCardContent {
             backdrop-filter: blur(0px);
             width: 100%;
             position: relative;
             top: 10px;
-            left: 0px;
+
         }
         
         .priceButton {
-            position: relative;
+           position: relative;
             margin: 0;
             right: 32px;
-            top: 53px;            
+            top: 53px;             
 
         }
 
@@ -114,10 +115,9 @@
         }
 
         .eventDate {
-            position: absolute;
-            bottom: 16px;
-            left: 400px;
-            z-index: 1;
+            top: 85px;
+            right: 617px;
+       
         }
         
     }

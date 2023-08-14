@@ -14,10 +14,12 @@ export const EventCard = (props) => {
     
     return (
         <div className="eventCard"  onClick = {handleClick}>
-           
+            
+
             <div className="upper-div" style={backgroundImage}>
-            <EventDate date={props.date} month={props.month} />
             </div>
+            <EventDate date={props.date} month={props.month} />
+            
                 <div className="eventCardContent">
                     <p className="eventArtist">{props.artist}</p>
                     <p className="eventLocation">{props.location}</p>

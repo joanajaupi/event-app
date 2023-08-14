@@ -18,7 +18,7 @@ export const Home = () => {
             image: "https://www.rollingstone.com/wp-content/uploads/2020/12/ArcticMonkeysRAHedits_highres_pcAaronParsons_7.jpg"
         },
         {
-            artist: "Dave - We're all alone in this together UK tour 2022",
+            artist: "Dave ",
             location: "Amsterdam Netherlands - 10:00 PM",
             date: "25",
             month: "Feb",
@@ -27,7 +27,7 @@ export const Home = () => {
 
         },
         {
-            artist: "Dave - We're all alone in this together UK tour 2022",
+            artist: "Dave ",
             location: "Amsterdam Netherlands - 10:00 PM",
             date: "25",
             month: "Feb",
