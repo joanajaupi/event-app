@@ -48,6 +48,8 @@ export const Home = () => {
             <div className="suggested">
                 <SuggestedCard date="24 Feb - 19:30" title="Dave - we are alone in this together"/>
                 <SuggestedCard date="24 Feb - 19:30" title="Dave - we are alone in this together" />
+                <SuggestedCard date="24 Feb - 19:30" title="Dave - we are alone in this together" />
+
             </div>
             <p className="upcoming-title">Upcoming events</p>
             <div className="filter-bar">

@@ -14,11 +14,13 @@ export const EventPage = () => {
             <div className="eventPagediv1"  style={backgroundImage} >
             <div className="header">
                 <div className="back" onClick={handleClick}>
-                <Icon icon="fas fa-arrow-left" />
-
+                        <Icon icon="fas fa-arrow-left" />
                 </div>
                 <div className="eventPage-title">
                     <p>Dave</p>
+                </div>
+                <div>
+                    
                 </div>
             </div>
             </div>
@@ -26,11 +28,15 @@ export const EventPage = () => {
                     <div className="name-price">
                         <p className="event-name">Dave</p>
                         <div className="priceBtn">
-                            <p className="price">45$</p>
+                            <p className="price">$45.00</p>
                         </div>
                         
                     </div>
-                    
+                    <div class="other">
+                    <div className="web-date">
+                        <Icon icon="far fa-calendar-alt"></Icon>
+                        <p><strong>02 </strong>September</p>
+                    </div>
                     <div className="date-time">
                         <Icon icon="far fa-calendar-alt" />
                         <div className="datee">
@@ -49,16 +55,20 @@ export const EventPage = () => {
                         <Icon icon="fas fa-ticket-alt" />
                         <p>5 tickets</p>
                     </div>
+                    </div>
             </div>
 
             <div className="eventPagediv2">
                 <div className="event-information">
+                <div>
                     <p className="about-event">
                         About event
                     </p>
+                    
                     <p className="about">
                     Lorem ipsum dolor sit amet. Ea nobis corporis ad fugiat culpa ut quibusdam soluta aut aliquid saepe. Est explicabo neque aut molestiae doloribus At fugiat ipsum non cupiditate soluta sed dolorem asperiores aut quia perferendis sed possimus officiis.
                     </p>
+                    </div>
                     <button className="buy-ticket">
                         <i className="fas fa-ticket-alt"></i>
                         Tickets</button>

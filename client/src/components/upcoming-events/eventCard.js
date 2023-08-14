@@ -13,17 +13,17 @@ export const EventCard = (props) => {
     }
     
     return (
-        <div className="eventCard" style={backgroundImage} onClick = {handleClick}>
-            <div className="eventImage">
-                <EventDate date={props.date} month={props.month} />
+        <div className="eventCard"  onClick = {handleClick}>
+           
+            <div className="upper-div" style={backgroundImage}>
+            <EventDate date={props.date} month={props.month} />
             </div>
-                <PriceButton price={props.price} />
-            <div className="overlay">
                 <div className="eventCardContent">
                     <p className="eventArtist">{props.artist}</p>
                     <p className="eventLocation">{props.location}</p>
                 </div>
-            </div>
+                <PriceButton price={props.price} />
+                
         </div>
     )
 }

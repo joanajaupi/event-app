@@ -34,5 +34,7 @@
         
         .searchBar{
             width: 565px;
+            margin: auto;
+            margin-top: 16px;
         }
     }

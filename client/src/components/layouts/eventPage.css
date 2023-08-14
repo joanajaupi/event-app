@@ -4,7 +4,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        mask-image: linear-gradient(to bottom,black,transparent 80%);
+        mask-image: linear-gradient(to bottom,black,transparent 100%);
         overflow: hidden;
     }
     .event-details{
@@ -114,6 +114,7 @@
     }
     .header{
         margin-left: 16px;
+
     }
     .eventPagediv2{
         margin-top: 32px;
@@ -154,7 +155,6 @@
         font-size: 16px;
         font-weight: normal;
     }
-
     .date-time,
     .location,
     .tickets {
@@ -187,4 +187,65 @@
         margin-top: 32px;
         text-align: left;
         letter-spacing: 0px;
+      }
+      .web-date{
+        display: none;
+      }
+
+      @media screen and (min-width: 1000px) {
+
+    
+        .header{
+            position: absolute;
+            top: 33px;
+            left: 190px;
+            width: calc(100% - 380px);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+
+        .event-details{
+            position: absolute;
+            left: 190px;
+            right: 190px;
+        }
+        
+        .event-information{
+           
+            margin-left: 190px;
+            margin-right: 190px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 152px;
+        }
+        .other{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 89px;
+           
+
+        }
+        .date-time{
+            display: none;
+        }
+        .web-date{
+            height: 42px;
+            margin-bottom: 24px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            color: #fff;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        .about{
+            margin-right:33px;
+        }
       }

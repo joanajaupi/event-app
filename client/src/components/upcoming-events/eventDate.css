@@ -3,8 +3,6 @@
         border-radius: 23px;
         width: 46px;
         height: 46px;
-        margin-top: 10px;
-        margin-right: 16px;
         background-color: linear-gradient(135deg,#72727200, #2C2C2C66);
         backdrop-filter: blur(10px);
     }

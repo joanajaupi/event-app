@@ -4,7 +4,7 @@ export const FilterButtons = (props) => {
 
     return (
 
-        <div className="filterButtons">
+        <div className="filterButton">
             {
                 props.selected === "true" ? <a href="#" className="autoselected filterName" selected>{props.name}</a> : 
                 <a href="#" className="filterName">{props.name}</a>  }

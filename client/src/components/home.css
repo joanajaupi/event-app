@@ -63,9 +63,23 @@
 
 @media screen and (min-width: 601px) {
 
-    .home{
+    .suggested {
         margin-left: 108px;
         margin-right: 108px;
+      
+
     }
-    
+    .suggested-title{
+        margin-left: 108px;
+        margin-top: 32px;
+    }
+    .upcoming-title{
+        margin-left: 108px;
+    }
+    .filter-bar{
+        gap: 8px;
+    }
+    .total-events{
+        margin-left: 108px;
+    }
 }

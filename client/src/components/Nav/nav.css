@@ -38,6 +38,13 @@
 
 
     @media screen and (min-width: 601px) {
+
+        .nav{
+            margin-right: 108px;
+            margin-left: 108px;
+            border-bottom: 2px solid #6B6A6E;
+            
+        }
         
         
     }

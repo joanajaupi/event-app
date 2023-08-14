@@ -1,5 +1,5 @@
 import React from 'react';
-import './eventCard.css';
+import './price.css';
 
 
 export const PriceButton = (props) => {
